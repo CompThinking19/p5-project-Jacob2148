@@ -14,5 +14,5 @@ function draw() {
   rect(25, 25, 50, 50);
   move++
   if(move == 400){move -= 550;}}
-
   // put drawing code here
+}
