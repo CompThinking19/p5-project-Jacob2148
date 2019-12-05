@@ -4,14 +4,17 @@ function setup() {
   // put setup code here
 }
 var move = 0
+var currentX = 0;
+var currentY = 0;
 function draw() {
-  if(keyIsPressed === True){
+  if(keyIsPressed === true){
     fill(0);
   }else{
     fill(255);
   }
-  translate(move, 40)
-  rect(25, 25, 50, 50);
+  translate(move, 40, move, 40)
+  currentX = (currentX + 25);
+  currentY = (currentY + 25);
   move++
   if(move == 400){move -= 550;}}
 
