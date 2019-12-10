@@ -17,6 +17,7 @@ function draw() {
     fill(255);
   }
   point (100, 100)
+  strokeWeight(15)
   translate(move, 40, 40)
   //causes a new spot to form on the canvas when the the next key is pressed with a change vertically and horizontally
   currentX = (currentX + 25);
